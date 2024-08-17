@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <link rel="icon" href="./assets/images/favicon.png">
+  <!-- Boostrap -->
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+  <!-- ANIMATED TEXT CSS -->
+  <link rel="stylesheet" href="./assets/css/animated-text.css">
+  <!-- Font Family -->
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <!-- Animate css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/2.1.1/animate.min.css">
+  <!-- FancyBox Css -->
+  <link rel="stylesheet" href="./assets/css/jquery.fancybox.min.css" />
+  <!-- Font Family -->
+  <link rel="stylesheet" href="./assets/fonts/font.css" />
+  <!-- Custom css -->
+  <link rel="stylesheet" href="./assets/css/stylesheet.css" />
+  <title>Home | Chit</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- Header Start -->
+    <header class="header float-start w-100">
+      <div class="header-inner">
+        <div class="container">
+          <nav class="p-0 navbar navbar-expand-md">
+            <a
+              class="p-0 navbar-brand d-block logo m-0"
+              href="index.html"
+              ><img
+                src="./assets/images/Logo.png"
+                class="img-fluid m-0"
+                alt="logo"
+            /></a>
+            <button
+              class="p-0 border-0 shadow-none navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="w-auto h-auto navbar-toggler-icon">
+                <svg width="34" height="24" viewBox="0 0 34 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <defs>
+                      <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                          <stop offset="0%" style="stop-color:#FA6400" />
+                          <stop offset="100%" style="stop-color:#A523FF" />
+                      </linearGradient>
+                  </defs>
+                  <path d="M34 22.2943C34 23.2371 33.2418 24 32.3085 24H18.6915C18.2429 24 17.8126 23.8203 17.4954 23.5004C17.1782 23.1805 17 22.7467 17 22.2943C17 21.8419 17.1782 21.408 17.4954 21.0882C17.8126 20.7683 18.2429 20.5886 18.6915 20.5886H32.3085C33.2435 20.5886 34 21.3514 34 22.2943ZM34 12C34 12.9429 33.2418 13.7057 32.3085 13.7057H1.6915C1.24289 13.7057 0.812647 13.526 0.495429 13.2061C0.178211 12.8862 0 12.4524 0 12C0 11.5476 0.178211 11.1138 0.495429 10.7939C0.812647 10.474 1.24289 10.2943 1.6915 10.2943H32.3085C33.2435 10.2943 34 11.0589 34 12ZM32.3085 3.41143C32.7571 3.41143 33.1874 3.23172 33.5046 2.91184C33.8218 2.59195 34 2.1581 34 1.70571C34 1.25333 33.8218 0.819475 33.5046 0.499592C33.1874 0.179708 32.7571 1.34821e-08 32.3085 0H11.8915C11.6694 -6.67565e-09 11.4494 0.0441196 11.2442 0.12984C11.039 0.21556 10.8525 0.341202 10.6954 0.499592C10.5384 0.657982 10.4138 0.846019 10.3288 1.05297C10.2438 1.25991 10.2 1.48172 10.2 1.70571C10.2 1.92971 10.2438 2.15152 10.3288 2.35846C10.4138 2.56541 10.5384 2.75345 10.6954 2.91184C10.8525 3.07023 11.039 3.19587 11.2442 3.28159C11.4494 3.36731 11.6694 3.41143 11.8915 3.41143H32.3085Z" fill="url(#grad)" />
+              </svg>
+              </span>
+            </button>
+            <div class="collapse navbar-collapse w-100 justify-content-between" id="navbarSupportedContent">
+              <!-- Mobile nav sidebar logo & close btn start -->
+              <div class="d-md-none d-block">
+                <div
+                  class="d-flex justify-content-between align-items-center logo-close-sidebar-top"
+                >
+                  <a
+                    class="p-0 navbar-brand d-flex align-items-center logo m-0"
+                    href="index.html"
+                    ><img
+                      src="./assets/images/Logo.png"
+                      class="img-fluid"
+                      alt="logo"
+                  /></a>
+                  <button
+                    class="p-0 border-0 shadow-none navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span class="w-auto h-auto navbar-toggler-icon close">
+                      <svg xmlns="http://www.w3.org/2000/svg" height="36px" width="36px" viewBox="0 0 320 512">
+                        <defs>
+                            <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#FA6400" />
+                                <stop offset="100%" style="stop-color:#A523FF" />
+                            </linearGradient>
+                        </defs>
+                        <path d="M315.31 411.31C309.056 417.563 298.936 417.563 292.682 411.31L160 278.627L27.318 411.31C21.064 417.563 10.944 417.563 4.69 411.31C-1.563 405.056 -1.563 394.936 4.69 388.682L137.373 256L4.69 123.318C-1.563 117.064 -1.563 106.944 4.69 100.69C10.944 94.437 21.064 94.437 27.318 100.69L160 233.373L292.682 100.69C298.936 94.437 309.056 94.437 315.31 100.69C321.563 106.944 321.563 117.064 315.31 123.318L182.627 256L315.31 388.682C321.563 394.936 321.563 405.056 315.31 411.31Z" fill="url(#grad)" />
+                    </svg>
+                    </span>
+                  </button>
+                </div>
+                <!-- Mobile nav sidebar logo & close btn End -->
+              </div>
+              <div class="d-md-flex justify-content-between align-items-center w-100">
+                <ul class="navbar-nav me-auto align-items-md-center">
+                  <li class="nav-item">
+                    <a class="p-0 nav-link text-capitalize" href="project-case-study.html"
+                      >Project</a
+                    >
+                  </li>
+                  <li class="nav-item pl-100">
+                    <a class="p-0 nav-link text-capitalize" href="service.html"
+                      >Service</a
+                    >
+                  </li>
+                </ul>
+                <ul class="navbar-nav ms-auto align-items-md-center">
+                  <li class="nav-item">
+                    <a class="p-0 nav-link text-capitalize" href="team.html"
+                      >Team</a
+                    >
+                  </li>
+                  <li class="nav-item pl-100">
+                    <a class="p-0 nav-link text-capitalize" href="contact.html"
+                      >Contact</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main class="main-content float-start w-100">
+      <!-- Hero Section -->
+      <section class="float-start w-100 hero-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-12 wow fadeInLeft" data-wow-delay="0.3s" data-wow-duration="1s">
+              <h3 class="text-white text-uppercase fs-28 fw-700 wow fadeInUp" data-delay=".4s">Logo & Branding</h3>
+              <!-- Verical Slider -->
+              <div class="text-slider-wrapper d-flex align-items-center pt-2 wow fadeInDown" data-wow-delay="0.3s" data-wow-duration="1s">
+                <h2 class="text-slider__static fw-700 text-white fs-26">where purpose meets</h2>
+                <div class="text-slider__dynamic ps-2">
+                  <div class="cd-headline clip is-full-width">
+                    <span class="cd-words-wrapper vertical-slider__item fw-700 fs-26 text-orange fw-700">
+                      <h2 class="is-visible">Design</h2>
+                      <h2>Concept</h2>
+                      <h2>Visual</h2>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <!-- Verical Slider End  -->
+              <p class="fs-24 fw-400 text-light-gray pb-lg-0 pb-2 wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="1s">We believe in Good design that make<span
+                  class="d-lg-block"> your business <span class="fw-600">understandable</span></span></p>
+            </div>
+            <div class="col-lg-6 col-12 wow fadeInRight" data-wow-delay="0.3s" data-wow-duration="1s">
+              <div class="text-lg-center text-start">
+                <h5 class="fw-400 fs-38 font-heinch text-white heinch-text text-uppercase heinch-text-border pb-2">feel
+                  <span class="fw-500">unique</span> focus <span class="fw-500">desire</span></h5>
+              </div>
+              <div class="hero_logo_slider overflow-hidden">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide hero_logo_img">
+                    <img src="./assets/images/img-1.png" alt="Hero logo" class="img-fluid">
+                  </div>
+                  <div class="swiper-slide hero_logo_img">
+                    <img src="./assets/images/img-2.png" alt="Hero logo" class="img-fluid">
+                  </div>
+                  <div class="swiper-slide hero_logo_img">
+                    <img src="./assets/images/img-3.png" alt="Hero logo" class="img-fluid">
+                  </div>
+                  <div class="swiper-slide hero_logo_img">
+                    <img src="./assets/images/img-4.png" alt="Hero logo" class="img-fluid">
+                  </div>
+                  <div class="swiper-slide hero_logo_img">
+                    <img src="./assets/images/img-5.png" alt="Hero logo" class="img-fluid">
+                  </div>
+                  <div class="swiper-slide hero_logo_img">
+                    <img src="./assets/images/img-6.png" alt="Hero logo" class="img-fluid">
+                  </div>
+                  <div class="swiper-slide hero_logo_img">
+                    <img src="./assets/images/img-7.png" alt="Hero logo" class="img-fluid">
+                  </div>
+                  <div class="swiper-slide hero_logo_img">
+                    <img src="./assets/images/img-8.png" alt="Hero logo" class="img-fluid">
+                  </div>
+                  <div class="swiper-slide hero_logo_img">
+                    <img src="./assets/images/img-9.png" alt="Hero logo" class="img-fluid">
+                  </div>
+                  <div class="swiper-slide hero_logo_img">
+                    <img src="./assets/images/img-10.png" alt="Hero logo" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Video Section -->
+      <section class="section-padding float-start w-100">
+        <div class="container">
+            <div class="video-play">
+              <video width="100%" autoplay loop controls muted class="rounded">
+                <source src="./assets/video/Chit-Web.mp4" type="video/mp4">
+              </video>
+            </div>
+        </div>
+      </section>
+      <!-- Text section -->
+      <section class="pt-0 section-padding float-start w-100">
+        <div class="container">
+           <div class="text-center text-creation scroll-reveal" >
+            <p class="lh-lg font-unbounded fs-24">
+              <span>
+              From Concept to Creation: <br>
+              Let us transform your ideas into stunning
+              visual experiences, from logos and websites
+              to packaging and marketing materials.
+            </span>
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Services -->
+      <section class="section-padding pt-0 float-start w-100">
+        <div class="container">
+          <div class="text-center wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="1s">
+            <h2 class="text-white fw-500 font-unbounded fs-36 pb-4 mb-md-3 mb-1 text-capitalize">Our Service</h2>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-12 mb-3 wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="1s">
+              <div class="service-box box-green position-relative">
+                <div class="service-box-image-wrapper position-relative">
+                  <div class="text-end">
+                    <img src="./assets/images/service-box-dots.png" alt="Dots" class="img-fluid">
+                  </div>
+                  <div class="service-box-image">
+                    <img src="./assets/images/logo-design.png" alt="Logo Design" class="img-fluid static-image">
+                    <img src="./assets/images/logo-design-hover-img.png" alt="Logo Design Hover"
+                      class="img-fluid hover-image">
+                  </div>
+                </div>
+                <div class="service-box-content">
+                  <h3 class="text-uppercase font-heinch fw-400 fs-32 mb-3">LOGO DESIGN</h3>
+                  <p class="fw-400 fs-16">We Specialize in creating unique and
+                    memorable logo brand identities. We design logo that convey the brand
+                    values and identity of our clients.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mb-3 wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="1s">
+              <div class="service-box box-orange position-relative">
+                <div class="service-box-image-wrapper position-relative">
+                  <div class="text-end">
+                    <img src="./assets/images/service-box-dots.png" alt="Dots" class="img-fluid">
+                  </div>
+                  <div class="service-box-image">
+                    <img src="./assets/images/graphics-design.png" alt="Graphics Design" class="img-fluid static-image">
+                    <img src="./assets/images/graphics-design-hover-img.png" alt="Graphics Design Hover"
+                      class="img-fluid hover-image">
+                  </div>
+                </div>
+                <div class="service-box-content">
+                  <h3 class="text-uppercase font-heinch fw-400 fs-32 mb-3">GRAPHICS DESIGN</h3>
+                  <p class="fw-400 fs-16">We create Packaging Design, Label Design, Brochure Design, Banners Design,
+                    Template Design
+                    and Sure Identity of Brand.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-12 mb-md-3 wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="1s">
+              <div class="service-box box-purpal position-relative">
+                <div class="service-box-image-wrapper position-relative">
+                  <div class="text-end">
+                    <img src="./assets/images/service-box-dots.png" alt="Dots" class="img-fluid">
+                  </div>
+                  <div class="service-box-image">
+                    <img src="./assets/images/web-design.png" alt="Web Design" class="img-fluid static-image">
+                    <img src="./assets/images/web-design-hover-img.png" alt="Web Design Hover"
+                      class="img-fluid hover-image">
+                  </div>
+                </div>
+                <div class="service-box-content">
+                  <h3 class="text-uppercase font-heinch fw-400 fs-32 mb-3">WEB DESIGN & DEVELOPMENT</h3>
+                  <p class="fw-400 fs-16">Make delightful user
+                    experience with website and webpage for your business</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Project -->
+      <section class="float-start w-100 our-project section-padding">
+        <div class="container">
+          <div class="row position-relative">
+            <div class="col-md-5 col-12 wow fadeInLeft" data-wow-delay="0.3s" data-wow-duration="1s">
+              <div class="text-start">
+                <h2 class="text-white fw-500 font-unbounded fs-36 pb-3 text-capitalize">Our Project</h2>
+                <p class="fw-400 fs-16 text-white  our-project-desc">Illuminating Ideas, Crafting Wonders: Your Journey
+                  to Captivating Designs Begins for a Digital Renaissance with Us!</p>
+                <!-- Swiper Button -->
+                <div class="our-project-slider-navigation d-flex gap-4 pt-md-4 pb-3 pb-md-0">
+                  <div class="project-swiper-button-prev">
+                    <!-- <img src="./assets/images/privious-swiper-btn.png" alt="Arrow"
+                      class="img-fluid"> -->
+                      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                        <circle cx="20" cy="20" r="19.5" transform="matrix(-1 0 0 1 40 0)" fill="" stroke="white"/>
+                        <path d="M28 19C28.5523 19 29 19.4477 29 20C29 20.5523 28.5523 21 28 21V19ZM11.2929 20.7071C10.9024 20.3166 10.9024 19.6834 11.2929 19.2929L17.6569 12.9289C18.0474 12.5384 18.6805 12.5384 19.0711 12.9289C19.4616 13.3195 19.4616 13.9526 19.0711 14.3431L13.4142 20L19.0711 25.6569C19.4616 26.0474 19.4616 26.6805 19.0711 27.0711C18.6805 27.4616 18.0474 27.4616 17.6569 27.0711L11.2929 20.7071ZM28 21H12V19H28V21Z" fill="#fff"/>
+                        </svg>
+                    </div>
+                  <div class="project-swiper-button-next">
+                    <!-- <img src="./assets/images/next-swiper-btn.png" alt="Arrow"
+                      class="img-fluid"> -->
+                      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                        <circle cx="20" cy="20" r="19.5" fill="" stroke="white"/>
+                        <path d="M12 19C11.4477 19 11 19.4477 11 20C11 20.5523 11.4477 21 12 21V19ZM28.7071 20.7071C29.0976 20.3166 29.0976 19.6834 28.7071 19.2929L22.3431 12.9289C21.9526 12.5384 21.3195 12.5384 20.9289 12.9289C20.5384 13.3195 20.5384 13.9526 20.9289 14.3431L26.5858 20L20.9289 25.6569C20.5384 26.0474 20.5384 26.6805 20.9289 27.0711C21.3195 27.4616 21.9526 27.4616 22.3431 27.0711L28.7071 20.7071ZM12 21H28V19H12V21Z" fill="white"/>
+                        </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-7 col-12 wow fadeInRight" data-wow-delay="0.3s" data-wow-duration="1s">
+              <div class="our-project-slider overflow-hidden ps-md-1">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide our-project-box">
+                    <div class="our-project-box-image">
+                      <img src="./assets/images/project-logo.png" alt="Our Project Logo" class="img-fluid">
+                    </div>
+                    <div class="text-center">
+                      <h6 class="fs-20 text-white font-heinch fw-400 text-uppercase">LOGO</h6>
+                    </div>
+                  </div>
+                  <div class="swiper-slide our-project-box">
+                    <div class="our-project-box-image">
+                      <img src="./assets/images/project-packaging.png" alt="Our Project Packaging" class="img-fluid">
+                    </div>
+                    <div class="text-center">
+                      <h6 class="fs-20 text-white font-heinch fw-400 text-uppercase">Packaging</h6>
+                    </div>
+                  </div>
+                  <div class="swiper-slide our-project-box">
+                    <div class="our-project-box-image">
+                      <img src="./assets/images/project-website.png" alt="Our Project Website" class="img-fluid">
+                    </div>
+                    <div class="text-center">
+                      <h6 class="fs-20 text-white font-heinch fw-400 text-uppercase">Website</h6>
+                    </div>
+                  </div>
+                  <div class="swiper-slide our-project-box">
+                    <div class="our-project-box-image">
+                      <img src="./assets/images/project-print.png" alt="Our Project Print" class="img-fluid">
+                    </div>
+                    <div class="text-center">
+                      <h6 class="fs-20 text-white font-heinch fw-400 text-uppercase">Print</h6>
+                    </div>
+                  </div>
+                  <div class="swiper-slide our-project-box">
+                    <div class="our-project-box-image">
+                      <img src="./assets/images/project-photography.png" alt="Our Project Photography"
+                        class="img-fluid">
+                    </div>
+                    <div class="text-center">
+                      <h6 class="fs-20 text-white font-heinch fw-400 text-uppercase">Photography</h6>
+                    </div>
+                  </div>
+                  <div class="swiper-slide our-project-box">
+                    <div class="our-project-box-image">
+                      <img src="./assets/images/project-mobile-app.png" alt="Our Project Mobile app" class="img-fluid">
+                    </div>
+                    <div class="text-center">
+                      <h6 class="fs-20 text-white font-heinch fw-400 text-uppercase">Mobile app</h6>
+                    </div>
+                  </div>
+                </div>
+                <!-- Swiper Dots -->
+                <div class="swiper-pagination position-static customize-dot"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Gallery -->
+      <section class="float-start w-100 section-padding">
+        <div class="container">
+          <div class="grid d-flex justify-content-center">
+            <div class="grid-item gallery-one wow fadeInLeft" data-wow-delay="0.3s" data-wow-duration="1s">
+              <img src="./assets/images/gallery-img-1.png" alt="Gallery" class="img-fluid">
+            </div>
+            <div class="grid-item gallery-two wow fadeInDown" data-wow-delay="0.4s" data-wow-duration="1s">
+              <img src="./assets/images/gallery-img-2.png" alt="Gallery" class="img-fluid">
+            </div>
+            <div class="grid-item gallery-three wow fadeInRight" data-wow-delay="0.3s" data-wow-duration="1s">
+              <img src="./assets/images/gallery-img-3.png" alt="Gallery" class="img-fluid">
+            </div>
+          </div>
+          <div class="grid d-flex justify-content-center">
+            <div class="grid-item gallery-four pb-md-0 wow fadeInLeft" data-wow-delay="0.3s" data-wow-duration="1s">
+              <img src="./assets/images/gallery-img-4.png" alt="Gallery" class="img-fluid">
+            </div>
+            <div class="grid-item gallery-five pb-md-0 wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="1s">
+              <img src="./assets/images/gallery-img-5.png" alt="Gallery" class="img-fluid">
+            </div>
+            <div class="grid-item gallery-six pb-md-0 wow fadeInRight" data-wow-delay="0.3s" data-wow-duration="1s">
+              <a href="./project-case-study.html" >
+                <img src="./assets/images/gallery-img-6.png" alt="Gallery" class="img-fluid">
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- category slider -->
+      <section class="float-start w-100">
+        <div class="w-100">
+          <div class="category-autoslider">
+            <div class="slide-track">
+              <div class="category-autoslider-slide category-img-block">
+                <div class="d-flex align-items-center gap-4">
+                  <img src="./assets/images/star.png" class="start-img img-fluid" alt="Star" />
+                  <p class="category-text">DESIGN</p>
+                </div>
+              </div>
+              <div class="category-autoslider-slide category-img-block">
+                <div class="d-flex align-items-center gap-4">
+                  <img src="./assets/images/star.png" class="start-img img-fluid" alt="Star" />
+                  <p class="category-text">branding</p>
+                </div>
+              </div>
+              <div class="category-autoslider-slide category-img-block">
+                <div class="d-flex align-items-center gap-4">
+                  <img src="./assets/images/star.png" class="start-img img-fluid" alt="Star" />
+                  <p class="category-text">Website Design</p>
+                </div>
+              </div>
+              <div class="category-autoslider-slide category-img-block">
+                <div class="d-flex align-items-center gap-4">
+                  <img src="./assets/images/star.png" class="start-img img-fluid" alt="Star" />
+                  <p class="category-text">CREATION</p>
+                </div>
+              </div>
+              <div class="category-autoslider-slide category-img-block">
+                <div class="d-flex align-items-center gap-4">
+                  <img src="./assets/images/star.png" class="start-img img-fluid" alt="Star" />
+                  <p class="category-text">Website Development</p>
+                </div>
+              </div>
+              <div class="category-autoslider-slide category-img-block">
+                <div class="d-flex align-items-center gap-4">
+                  <img src="./assets/images/star.png" class="start-img img-fluid" alt="Star" />
+                  <p class="category-text">DESIGN</p>
+                </div>
+              </div>
+              <div class="category-autoslider-slide category-img-block">
+                <div class="d-flex align-items-center gap-4">
+                  <img src="./assets/images/star.png" class="start-img img-fluid" alt="Star" />
+                  <p class="category-text">branding</p>
+                </div>
+              </div>
+              <div class="category-autoslider-slide category-img-block">
+                <div class="d-flex align-items-center gap-4">
+                  <img src="./assets/images/star.png" class="start-img img-fluid" alt="Star" />
+                  <p class="category-text">Website Design</p>
+                </div>
+              </div>
+              <div class="category-autoslider-slide category-img-block">
+                <div class="d-flex align-items-center gap-4">
+                  <img src="./assets/images/star.png" class="start-img img-fluid" alt="Star" />
+                  <p class="category-text">CREATION</p>
+                </div>
+              </div>
+              <div class="category-autoslider-slide category-img-block">
+                <div class="d-flex align-items-center gap-4">
+                  <img src="./assets/images/star.png" class="start-img img-fluid" alt="Star" />
+                  <p class="category-text">Website Development</p>
+                </div>
+              </div>
+              <div class="category-autoslider-slide category-img-block">
+                <div class="d-flex align-items-center gap-4">
+                  <img src="./assets/images/star.png" class="start-img img-fluid" alt="Star" />
+                  <p class="category-text">DESIGN</p>
+                </div>
+              </div>
+              <div class="category-autoslider-slide category-img-block">
+                <div class="d-flex align-items-center gap-4">
+                  <img src="./assets/images/star.png" class="start-img img-fluid" alt="Star" />
+                  <p class="category-text">branding</p>
+                </div>
+              </div>
+              <div class="category-autoslider-slide category-img-block">
+                <div class="d-flex align-items-center gap-4">
+                  <img src="./assets/images/star.png" class="start-img img-fluid" alt="Star" />
+                  <p class="category-text">Website Design</p>
+                </div>
+              </div>
+              <div class="category-autoslider-slide category-img-block">
+                <div class="d-flex align-items-center gap-4">
+                  <img src="./assets/images/star.png" class="start-img img-fluid" alt="Star" />
+                  <p class="category-text">CREATION</p>
+                </div>
+              </div>
+              <div class="category-autoslider-slide category-img-block">
+                <div class="d-flex align-items-center gap-4">
+                  <img src="./assets/images/star.png" class="start-img img-fluid" alt="Star" />
+                  <p class="category-text">Website Development</p>
+                </div>
+              </div>
+              <div class="category-autoslider-slide category-img-block">
+                <div class="d-flex align-items-center gap-4">
+                  <img src="./assets/images/star.png" class="start-img img-fluid" alt="Star" />
+                  <p class="category-text">DESIGN</p>
+                </div>
+              </div>
+              <div class="category-autoslider-slide category-img-block">
+                <div class="d-flex align-items-center gap-4">
+                  <img src="./assets/images/star.png" class="start-img img-fluid" alt="Star" />
+                  <p class="category-text">branding</p>
+                </div>
+              </div>
+              <div class="category-autoslider-slide category-img-block">
+                <div class="d-flex align-items-center gap-4">
+                  <img src="./assets/images/star.png" class="start-img img-fluid" alt="Star" />
+                  <p class="category-text">Website Design</p>
+                </div>
+              </div>
+              <div class="category-autoslider-slide category-img-block">
+                <div class="d-flex align-items-center gap-4">
+                  <img src="./assets/images/star.png" class="start-img img-fluid" alt="Star" />
+                  <p class="category-text">CREATION</p>
+                </div>
+              </div>
+              <div class="category-autoslider-slide category-img-block">
+                <div class="d-flex align-items-center gap-4">
+                  <img src="./assets/images/star.png" class="start-img img-fluid" alt="Star" />
+                  <p class="category-text">Website Development</p>
+                </div>
+              </div>
+              <div class="category-autoslider-slide category-img-block">
+                <div class="d-flex align-items-center gap-4">
+                  <img src="./assets/images/star.png" class="start-img img-fluid" alt="Star" />
+                  <p class="category-text">DESIGN</p>
+                </div>
+              </div>
+              <div class="category-autoslider-slide category-img-block">
+                <div class="d-flex align-items-center gap-4">
+                  <img src="./assets/images/star.png" class="start-img img-fluid" alt="Star" />
+                  <p class="category-text">branding</p>
+                </div>
+              </div>
+              <div class="category-autoslider-slide category-img-block">
+                <div class="d-flex align-items-center gap-4">
+                  <img src="./assets/images/star.png" class="start-img img-fluid" alt="Star" />
+                  <p class="category-text">Website Design</p>
+                </div>
+              </div>
+              <div class="category-autoslider-slide category-img-block">
+                <div class="d-flex align-items-center gap-4">
+                  <img src="./assets/images/star.png" class="start-img img-fluid" alt="Star" />
+                  <p class="category-text">CREATION</p>
+                </div>
+              </div>
+              <div class="category-autoslider-slide category-img-block">
+                <div class="d-flex align-items-center gap-4">
+                  <img src="./assets/images/star.png" class="start-img img-fluid" alt="Star" />
+                  <p class="category-text">Website Development</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About Us -->
+      <section class="float-start w-100 section-padding">
+        <div class="container">
+          <h2 class="text-white fw-500 font-unbounded fs-36 pb-5 mb-3 text-capitalize text-center">Insights</h2>
+          <div class="row">
+            <div class="col-md-4 col-sm-6 mb-3">
+              <div class="w-100">
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <div class="front-img">
+                        <img src="./assets/images/about-front-img.webp" alt="insight-img" class="img-fluid mx-auto">
+                      </div>
+                      <div class="front-text">
+                        <p class="text-white fs-18 font-unbounded fw-500">Transform Your Brand</p>
+                      </div>
+                      <!-- Add Icon -->
+                       <div class="flip-card-icon">
+                        <img src="./assets/images/about-icon-img.png" alt="Icon" class="img-fluid mx-auto">
+                       </div>
+                    </div>
+                    <div class="flip-card-back">
+                      <p class="text-white fs-16 fw-400 lh-base pb-4 pe-1">Why Website Design is Important: Your website is the first interaction many customers have with your brand. A well-designed site enhances user experience, builds credibility & is crucial for your business's success.</p>
+                      <p class="text-white fs-16 fw-400 lh-base pe-1 pb-3">Helpful & Useful :A professionally designed website makes a strong first impression, improves user satisfaction & supports SEO. It boosts conversion rates by providing a seamless & engaging experience for your visitors.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-3">
+              <div class="w-100">
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <div class="front-img">
+                        <img src="./assets/images/about-front-img.webp" alt="insight-img" class="img-fluid mx-auto">
+                      </div>
+                      <div class="front-text">
+                        <p class="text-white fs-18 font-unbounded fw-500">Enhance Visua Appeal</p>
+                      </div>
+                      <!-- Add Icon -->
+                       <div class="flip-card-icon about-icon">
+                        <img src="./assets/images/about-icon-img-2.png" alt="Icon" class="img-fluid mx-auto">
+                       </div>
+                    </div>
+                    <div class="flip-card-back">
+                      <p class="text-white fs-16 fw-400 lh-base pb-4 pe-1">Why Website Design is Important: Your website is the first interaction many customers have with your brand. A well-designed site enhances user experience, builds credibility & is crucial for your business's success.</p>
+                      <p class="text-white fs-16 fw-400 lh-base pe-1 pb-3">Helpful & Useful :A professionally designed website makes a strong first impression, improves user satisfaction & supports SEO. It boosts conversion rates by providing a seamless & engaging experience for your visitors.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-3">
+              <div class="w-100">
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <div class="front-img">
+                        <img src="./assets/images/about-front-img.webp" alt="insight-img" class="img-fluid mx-auto">
+                      </div>
+                      <div class="front-text">
+                        <p class="text-white fs-18 font-unbounded fw-500">Boost Your Brand</p>
+                      </div>
+                      <!-- Add Icon -->
+                       <div class="flip-card-icon about-icon-three">
+                        <img src="./assets/images/about-icon-img-3.png" alt="Icon" class="img-fluid mx-auto">
+                       </div>
+                    </div>
+                    <div class="flip-card-back">
+                      <p class="text-white fs-16 fw-400 lh-base pb-4 pe-1">Branding is the foundation of your business identity, setting you apart from competitors & creating a memorable image in customers' minds. It builds trust, fosters loyalty, & enhances your business's overall value.</p>
+                      <p class="text-white fs-16 fw-400 lh-base pe-1 pb-3">Effective branding makes your business recognizable, credible & appealing. It strengthens customer loyalty, attracts new clients & supports business growth by establishing a strong market presence.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Footer -->
+      <div class="footer float-start w-100">
+        <div class="footer-top float-start w-100">
+          <div class="container">
+            <div class="text-center">
+              <h3 class="text-white fw-800 wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="1s">Ready to Transform Your Vision into a Digital Masterpiece? </h3>
+              <p class="fs-24 fw-600 text-white pt-3 mt-1 wow fadeInDown" data-wow-delay="0.3s" data-wow-duration="1s">Let's Start <span class="text-orange">Your Project</span> and <span class="text-orange">Design</span> Your <span class="text-orange">Success Story Together!</span></p>
+              <a href="./contact.html" class="d-inline-block orange-btn wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="1s">Start Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom float-start  w-100">
+          <div class="container">
+            <div class="footer-bottom-inner">
+              <div class="row">
+                <div class="col-lg-4 col-md-3 col-12">
+                  <div class="d-md-block d-flex align-items-center gap-3 pb-md-0 pb-3">
+                    <a href="index.html" class="d-block mb-2 mb-md-4 footer-logo"><img src="./assets/images/footer-logo.png" alt="Logo"></a>
+                    <p class="text-light-white pt-md-2 fs-16 fw-500">Designs that Define, <span class="d-md-inline d-block">Brands that Shine</span></p>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                  <ul class="footer-nav-list">
+                    <li><a href="project-case-study.html">Project</a></li>
+                    <li><a href="service.html">Service</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="about.html">About</a></li>
+                  
+                  </ul>
+                </div>
+                <div class="col-lg-4 col-md-5 col-12">
+                  <p class="text-light-white pb-3 fs-16 fw-500">Connect with us!</p>
+                  <ul class="social-link d-flex mb-2">
+                    <li>
+                      <a href="https://www.instagram.com/chitdesign?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="  target="_blank" class="rounded-circle">
+                        <img src="./assets/images/instagram.png" alt="Instagram" class="img-fluid">
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.linkedin.com/in/chit-design-55bb8020b/" 
+ target="_blank" class="rounded-circle">
+                        <img src="./assets/images/linkdin.png" alt="Linkdin" class="img-fluid">
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.behance.net/chitart" target="_blank" class="rounded-circle">
+                        <img src="./assets/images/beryllium.png" alt="Beryllium" class="img-fluid">
+                      </a>
+                    </li>
+                  </ul>
+                  <ul class="content-list pt-1">
+                    <li class="pb-3">
+                      <a href="mailto:chitdesigninfo@gmail.com">
+                        <div class="d-flex align-items-center">
+                          <div class="me-3 content-box">
+                            <img src="./assets/images/email.png" alt="Email" class="img-fluid">
+                          </div>
+                          <div class="ps-1">
+                            <p>chitdesigninfo@gmail.com</p>
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="tel:+91 92656 58099">
+                        <div class="d-flex align-items-center">
+                          <div class="me-3 content-box">
+                            <img src="./assets/images/call.png" alt="Call" class="img-fluid">
+                          </div>
+                          <div class="ps-1">
+                            <p>+91 92656 58099</p>
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="float-start w-100 py-md-4 py-3">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 col-12">
+                <div class="text-start mb-2 mb-md-0">
+                  <p class="fs-16 text-white fw-500">Designed with Dip</p>
+                </div>
+              </div>
+              <div class="col-md-6 col-12">
+                <div class="text-md-end">
+                  <p class="fs-16 text-white fw-500">Copyright © 2024 <span class="text-orange">Chit Design</span>. All rights reserved.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+  </div>
+  <!-- Jquery -->
+  <script src="./assets/js/jquery.min.js" type="text/javascript"></script>
+  <!-- Boostrap -->
+  <script src="./assets/js/bootstrap.min.js" type="text/javascript"></script>
+  <!-- Wow js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  <!-- ANIMATED TEXT JS -->
+  <script src="./assets/js/animated-text.js"></script>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- FancyBox -->
+  <script src="./assets/js/jquery.fancybox.min.js"></script>
+  <!-- for text-reveal  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script> -->
+  <script src="https://unpkg.com/split-type"></script>
+  <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script>
+  <!-- Custom js -->
+  <script src="./assets/js/script.js"></script>
+  <script>
+    // Our Project Slider
+    var swiper = new Swiper(".our-project-slider", {
+      slidesPerView: 4,
+      slidesPerGroup: 4,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".project-swiper-button-next",
+        prevEl: ".project-swiper-button-prev",
+      },
+      breakpoints: {
+        319: {
+          slidesPerView: 2,
+          spaceBetween: 15,
+          slidesPerGroup: 2,
+        },
+        480: {
+          slidesPerView: 3,
+          spaceBetween: 15,
+          slidesPerGroup: 3,
+        },
+        1024: {
+          slidesPerView: 4,
+          spaceBetween: 30,
+          slidesPerGroup: 4,
+        },
+      },
+    });
+  </script>
+  <script>
+    
+  </script>
+</body>
+
+</html>
