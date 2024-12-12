@@ -1211,6 +1211,11 @@ img {
 	-webkit-filter: grayscale(0%); */
   transition: all ease-in-out 0.3s;
 }
+.team_page_container1{
+  display: flex !important;
+  gap: 20px !important;
+  justify-content: center;
+}
 /* team-page end */
 
 /* service page end */
@@ -1223,7 +1228,9 @@ img {
   gap: 70px;
   justify-content: center !important;
   margin-top: 50px;
+  flex-wrap: nowrap;
 }
+
 @media (max-width: 1160px) {
   .margin-class {
     margin-top: 10px !important;
@@ -1249,11 +1256,11 @@ img {
 }
 
 @media (max-width: 980px) {
-  .team-page-container{
-    flex-wrap: wrap;
+  .team_page_container1{
+    flex-wrap: wrap !important;
   }
   .hire-on{
-    flex-wrap: wrap;
+    flex-wrap: wrap !important;
     gap: 40px;
   }
   /* Gallery */
